@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/LSDJAM.dir/sources/Player.cpp.o CMakeFiles/LSDJAM.dir/sources/main.cpp.o -o LSDJAM  _deps/raylib-build/raylib/libraylib.a -lm -lpthread -lOpenGL -lGLX -lGLU -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl 
