@@ -12,7 +12,17 @@
 ********************************************************************************************/
 
 #include "raylib.h"
+#include "raymath.h"
 #include "rcamera.h"
+#include "Core/Log.h"
+
+#include "Systems/RenderingSystem.h"
+#include "Systems/InputSystem.h"
+#include "Components/InputComponent.h"
+#include "Components/TransformComponent.h"
+#include <cstdint>
+
+#define _ECS_IMPLEMENTATION
 #include "ecs.h"
 
 #define MAX_COLUMNS 20
@@ -22,6 +32,17 @@
 //------------------------------------------------------------------------------------
 int main(void)
 {
+    Log::Init();
+    ECS ecs;
+    ecs.RegisterComponent<InputComponent>();
+    ecs.RegisterComponent<TransformComponent>();
+    ecs.RegisterSystem<RenderingSystem>();
+    ecs.RegisterSystem<InputSystem>();
+
+    uint64_t player = ecs.GetNewEntity();
+    ecs.GetComponent<InputComponent>(player)->CurrentSpeed = 100;
+    ecs.GetComponent<TransformComponent>(player)->Position = { 0, 2, 4};
+
     // Initialization
     //--------------------------------------------------------------------------------------
     const int screenWidth = 800;
@@ -59,6 +80,7 @@ int main(void)
     // Main game loop
     while (!WindowShouldClose())        // Detect window close button or ESC key
     {
+        ecs.Update();
         // Update
         //----------------------------------------------------------------------------------
         // Switch camera mode
@@ -117,8 +139,46 @@ int main(void)
         // Update camera computes movement internally depending on the camera mode
         // Some default standard keyboard/mouse inputs are hardcoded to simplify use
         // For advance camera controls, it's reecommended to compute camera movement manually
-        UpdateCamera(&camera, cameraMode);                  // Update camera
+      //  UpdateCamera(&camera, cameraMode);                  // Update camera
+      // Get player position
+      //
 
+      static float totalRotX = 0.0f;
+      static float totalRotY = 0.0f;
+
+      Vector3 playerPos = ecs.GetComponent<TransformComponent>(player)->Position;
+      Vector3 playerRot = ecs.GetComponent<TransformComponent>(player)->EulerRotation;
+
+      // Set camera position with offset
+      camera.position = Vector3Add(playerPos, (Vector3){ 0.0f, 1.8f, 0.0f });
+
+      // Handle mouse input
+      const float mouseSensitivity = 0.003f;
+      float deltaX = -GetMouseDelta().x * mouseSensitivity;
+      float deltaY = -GetMouseDelta().y * mouseSensitivity;
+
+      // Calculate and set camera target
+      Vector3 forward = Vector3Transform(
+          (Vector3){ 0.0f, 0.0f, 1.0f },
+          MatrixRotateXYZ((Vector3){totalRotY, totalRotX, 0.0f })
+      );
+      totalRotX += deltaX;
+      totalRotY += deltaY;
+      playerRot.x = Clamp(playerRot.x + totalRotX* static_cast<float>(GetFrameTime()), -PI * 0.5 * 0.95, PI * 0.5 * 0.95);
+      playerRot.y = totalRotY * GetFrameTime();
+      playerRot.z = Lerp(playerRot.z, 0.0, Clamp(GetFrameTime() * 7.5f, 0.0, 1.0));
+      playerRot.z -= forward.x * GetFrameTime() * 0.75f;
+      playerRot.z = Clamp(playerRot.z, -PI * 0.3f, PI * 0.5f);
+      // Update camera rotation
+      //CameraYaw(&camera, deltaX, true);
+      //CameraPitch(&camera, deltaY, true, false, false);
+      //Matrix testForward = MatrixRotateXYZ((Vector3){playerRot.x, playerRot.y, playerRot.z});
+
+      camera.target = Vector3Add(camera.position, forward);
+      playerRot = (Vector3){ totalRotY, totalRotX, 0.0f };
+      ecs.GetComponent<TransformComponent>(player)->EulerRotation = playerRot;
+
+            //camera.target = Vector3Scale(ecs.GetComponent<TransformComponent>(player)->Position, 1.5f);
 /*
         // Camera PRO usage example (EXPERIMENTAL)
         // This new camera function allows custom movement/rotation values to be directly provided

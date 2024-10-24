@@ -13,6 +13,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
   "CMakeLists.txt"
+  "_deps/glm-src/CMakeLists.txt"
+  "_deps/glm-src/glm/CMakeLists.txt"
+  "_deps/jolt-src/Build/CMakeLists.txt"
+  "_deps/jolt-src/Jolt/Jolt.cmake"
   "_deps/raylib-src/CMakeLists.txt"
   "_deps/raylib-src/CMakeOptions.txt"
   "_deps/raylib-src/cmake/AddIfFlagCompiles.cmake"
@@ -35,6 +39,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in"
   "_deps/raylib-src/src/external/glfw/CMakeLists.txt"
   "_deps/raylib-src/src/external/glfw/src/CMakeLists.txt"
+  "_deps/spdlog-src/CMakeLists.txt"
+  "_deps/spdlog-src/cmake/ide.cmake"
+  "_deps/spdlog-src/cmake/utils.cmake"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -51,8 +58,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CPackComponent.cmake"
   "/usr/share/cmake-3.22/Modules/CheckCCompilerFlag.cmake"
   "/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
   "/usr/share/cmake-3.22/Modules/CheckFunctionExists.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckIPOSupported.cmake"
   "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake"
   "/usr/share/cmake-3.22/Modules/CheckIncludeFiles.cmake"
   "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
@@ -89,6 +99,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/raylib-subbuild/CMakeLists.txt"
+  "_deps/jolt-subbuild/CMakeLists.txt"
+  "_deps/spdlog-subbuild/CMakeLists.txt"
+  "_deps/glm-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/raylib-build/cmake_uninstall.cmake"
   "_deps/raylib-build/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -102,6 +115,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "_deps/raylib-build/raylib/external/glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "_deps/raylib-build/raylib/external/glfw/src/glfw3.pc"
   "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/jolt-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/spdlog-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/glm-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/glm-build/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -111,4 +128,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/DependInfo.cmake"
   "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
+  "_deps/jolt-build/CMakeFiles/Jolt.dir/DependInfo.cmake"
+  "_deps/spdlog-build/CMakeFiles/spdlog.dir/DependInfo.cmake"
+  "_deps/glm-build/glm/CMakeFiles/glm.dir/DependInfo.cmake"
   )

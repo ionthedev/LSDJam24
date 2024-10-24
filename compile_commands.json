@@ -1,12 +1,27 @@
 [
 {
   "directory": "/home/ion/GitHome/LSDJam24",
-  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -g -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/Player.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Player.cpp",
+  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -D_DEBUG -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/.. -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Core/Log.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/sources/Core/Log.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24",
+  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -D_DEBUG -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/.. -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/Player.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Player.cpp",
   "file": "/home/ion/GitHome/LSDJam24/sources/Player.cpp"
 },
 {
   "directory": "/home/ion/GitHome/LSDJam24",
-  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -g -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/main.cpp.o -c /home/ion/GitHome/LSDJam24/sources/main.cpp",
+  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -D_DEBUG -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/.. -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24",
+  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -D_DEBUG -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/.. -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24",
+  "command": "/usr/bin/c++ -DASSETS_PATH=\\\"/home/ion/GitHome/LSDJam24/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -DPLATFORM_DESKTOP -DSPDLOG_COMPILED_LIB -D_DEBUG -I/home/ion/GitHome/LSDJam24/sources -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/.. -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=gnu++11 -o CMakeFiles/LSDJAM.dir/sources/main.cpp.o -c /home/ion/GitHome/LSDJam24/sources/main.cpp",
   "file": "/home/ion/GitHome/LSDJam24/sources/main.cpp"
 },
 {
@@ -173,5 +188,740 @@
   "directory": "/home/ion/GitHome/LSDJam24/_deps/raylib-build/raylib/external/glfw/src",
   "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/include -I/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/src -I/home/ion/GitHome/LSDJam24/_deps/raylib-build/raylib/external/glfw/src -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/src/posix_poll.c",
   "file": "/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw/src/posix_poll.c"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -x c++-header -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/cmake_pch.hxx.gch -c /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx.cxx",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx.cxx"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/AABBTree/AABBTreeBuilder.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/AABBTree/AABBTreeBuilder.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/AABBTree/AABBTreeBuilder.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/Color.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Color.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Color.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/Factory.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Factory.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Factory.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/IssueReporting.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/IssueReporting.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/IssueReporting.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/JobSystemSingleThreaded.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemSingleThreaded.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemSingleThreaded.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/JobSystemThreadPool.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemThreadPool.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemThreadPool.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/JobSystemWithBarrier.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemWithBarrier.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/JobSystemWithBarrier.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/LinearCurve.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/LinearCurve.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/LinearCurve.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/Memory.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Memory.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Memory.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/Profiler.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Profiler.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Profiler.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/RTTI.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/RTTI.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/RTTI.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/Semaphore.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Semaphore.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/Semaphore.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/StringTools.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/StringTools.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/StringTools.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Core/TickCounter.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/TickCounter.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Core/TickCounter.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Geometry/ConvexHullBuilder.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/ConvexHullBuilder.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/ConvexHullBuilder.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Geometry/ConvexHullBuilder2D.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/ConvexHullBuilder2D.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/ConvexHullBuilder2D.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Geometry/Indexify.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/Indexify.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/Indexify.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Geometry/OrientedBox.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/OrientedBox.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Geometry/OrientedBox.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Math/Vec3.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Math/Vec3.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Math/Vec3.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/SerializableObject.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/SerializableObject.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/SerializableObject.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/Body.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/Body.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/Body.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/BodyCreationSettings.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyCreationSettings.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyCreationSettings.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/BodyInterface.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyInterface.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyInterface.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/BodyManager.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyManager.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/BodyManager.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/MassProperties.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/MassProperties.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/MassProperties.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Body/MotionProperties.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/MotionProperties.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Body/MotionProperties.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Character/Character.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/Character.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/Character.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Character/CharacterBase.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/CharacterBase.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/CharacterBase.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Character/CharacterVirtual.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/CharacterVirtual.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Character/CharacterVirtual.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/BroadPhase/BroadPhase.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhase.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhase.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/BroadPhase/BroadPhaseBruteForce.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhaseBruteForce.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhaseBruteForce.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/BroadPhase/BroadPhaseQuadTree.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhaseQuadTree.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/BroadPhaseQuadTree.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/BroadPhase/QuadTree.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/QuadTree.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/BroadPhase/QuadTree.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CastConvexVsTriangles.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CastConvexVsTriangles.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CastConvexVsTriangles.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CastSphereVsTriangles.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CastSphereVsTriangles.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CastSphereVsTriangles.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CollideConvexVsTriangles.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollideConvexVsTriangles.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollideConvexVsTriangles.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CollideSphereVsTriangles.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollideSphereVsTriangles.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollideSphereVsTriangles.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CollisionDispatch.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollisionDispatch.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollisionDispatch.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/CollisionGroup.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollisionGroup.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/CollisionGroup.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/EstimateCollisionResponse.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/EstimateCollisionResponse.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/EstimateCollisionResponse.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/GroupFilter.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/GroupFilter.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/GroupFilter.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/GroupFilterTable.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/GroupFilterTable.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/GroupFilterTable.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/ManifoldBetweenTwoFaces.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/ManifoldBetweenTwoFaces.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/ManifoldBetweenTwoFaces.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/NarrowPhaseQuery.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/NarrowPhaseQuery.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/NarrowPhaseQuery.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/NarrowPhaseStats.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/NarrowPhaseStats.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/NarrowPhaseStats.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/PhysicsMaterial.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/PhysicsMaterial.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/PhysicsMaterial.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/PhysicsMaterialSimple.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/PhysicsMaterialSimple.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/PhysicsMaterialSimple.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/BoxShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/BoxShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/BoxShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/CapsuleShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CapsuleShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CapsuleShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/CompoundShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CompoundShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CompoundShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/ConvexHullShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ConvexHullShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ConvexHullShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/ConvexShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ConvexShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ConvexShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/CylinderShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CylinderShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/CylinderShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/DecoratedShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/DecoratedShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/DecoratedShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/EmptyShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/EmptyShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/EmptyShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/HeightFieldShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/HeightFieldShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/HeightFieldShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/MeshShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/MeshShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/MeshShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/MutableCompoundShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/MutableCompoundShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/MutableCompoundShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/OffsetCenterOfMassShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/OffsetCenterOfMassShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/OffsetCenterOfMassShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/PlaneShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/PlaneShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/PlaneShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/RotatedTranslatedShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/RotatedTranslatedShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/RotatedTranslatedShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/ScaledShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ScaledShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/ScaledShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/Shape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/Shape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/Shape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/SphereShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/SphereShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/SphereShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/StaticCompoundShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/StaticCompoundShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/StaticCompoundShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/TaperedCapsuleShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TaperedCapsuleShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TaperedCapsuleShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/TaperedCylinderShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TaperedCylinderShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TaperedCylinderShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/Shape/TriangleShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TriangleShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/Shape/TriangleShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Collision/TransformedShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/TransformedShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Collision/TransformedShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/ConeConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ConeConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ConeConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/Constraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/Constraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/Constraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/ConstraintManager.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ConstraintManager.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ConstraintManager.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/ContactConstraintManager.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ContactConstraintManager.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/ContactConstraintManager.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/DistanceConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/DistanceConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/DistanceConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/FixedConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/FixedConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/FixedConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/GearConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/GearConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/GearConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/HingeConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/HingeConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/HingeConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/MotorSettings.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/MotorSettings.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/MotorSettings.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/PathConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/PathConstraintPath.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraintPath.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraintPath.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/PathConstraintPathHermite.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraintPathHermite.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PathConstraintPathHermite.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/PointConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PointConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PointConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/PulleyConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PulleyConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/PulleyConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/RackAndPinionConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/RackAndPinionConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/RackAndPinionConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/SixDOFConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SixDOFConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SixDOFConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/SliderConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SliderConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SliderConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/SpringSettings.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SpringSettings.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SpringSettings.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/SwingTwistConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SwingTwistConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/SwingTwistConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Constraints/TwoBodyConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/TwoBodyConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Constraints/TwoBodyConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/DeterminismLog.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/DeterminismLog.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/DeterminismLog.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/IslandBuilder.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/IslandBuilder.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/IslandBuilder.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/LargeIslandSplitter.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/LargeIslandSplitter.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/LargeIslandSplitter.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/PhysicsScene.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsScene.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsScene.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/PhysicsSystem.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsSystem.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsSystem.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/PhysicsUpdateContext.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsUpdateContext.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/PhysicsUpdateContext.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Ragdoll/Ragdoll.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Ragdoll/Ragdoll.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Ragdoll/Ragdoll.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/SoftBody/SoftBodyCreationSettings.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyCreationSettings.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyCreationSettings.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/SoftBody/SoftBodyMotionProperties.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyMotionProperties.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyMotionProperties.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/SoftBody/SoftBodyShape.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyShape.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodyShape.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/SoftBody/SoftBodySharedSettings.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodySharedSettings.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/SoftBody/SoftBodySharedSettings.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/StateRecorderImpl.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/StateRecorderImpl.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/StateRecorderImpl.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/MotorcycleController.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/MotorcycleController.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/MotorcycleController.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/TrackedVehicleController.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/TrackedVehicleController.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/TrackedVehicleController.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleAntiRollBar.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleAntiRollBar.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleAntiRollBar.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleCollisionTester.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleCollisionTester.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleCollisionTester.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleConstraint.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleConstraint.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleConstraint.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleController.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleController.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleController.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleDifferential.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleDifferential.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleDifferential.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleEngine.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleEngine.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleEngine.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleTrack.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleTrack.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleTrack.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/VehicleTransmission.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleTransmission.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/VehicleTransmission.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/Wheel.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/Wheel.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/Wheel.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Physics/Vehicle/WheeledVehicleController.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/WheeledVehicleController.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Physics/Vehicle/WheeledVehicleController.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/RegisterTypes.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/RegisterTypes.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/RegisterTypes.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Renderer/DebugRenderer.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRenderer.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRenderer.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Renderer/DebugRendererPlayback.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererPlayback.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererPlayback.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Renderer/DebugRendererRecorder.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererRecorder.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererRecorder.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Renderer/DebugRendererSimple.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererSimple.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Renderer/DebugRendererSimple.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Skeleton/SkeletalAnimation.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletalAnimation.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletalAnimation.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Skeleton/Skeleton.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/Skeleton.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/Skeleton.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Skeleton/SkeletonMapper.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletonMapper.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletonMapper.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/Skeleton/SkeletonPose.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletonPose.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/Skeleton/SkeletonPose.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleGrouper/TriangleGrouperClosestCentroid.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleGrouper/TriangleGrouperClosestCentroid.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleGrouper/TriangleGrouperClosestCentroid.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleGrouper/TriangleGrouperMorton.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleGrouper/TriangleGrouperMorton.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleGrouper/TriangleGrouperMorton.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitter.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitter.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitter.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitterBinning.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterBinning.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterBinning.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitterFixedLeafSize.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterFixedLeafSize.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterFixedLeafSize.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitterLongestAxis.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterLongestAxis.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterLongestAxis.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitterMean.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterMean.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterMean.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/TriangleSplitter/TriangleSplitterMorton.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterMorton.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/TriangleSplitter/TriangleSplitterMorton.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStream.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStream.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStream.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamBinaryIn.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamBinaryIn.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamBinaryIn.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamBinaryOut.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamBinaryOut.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamBinaryOut.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamIn.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamIn.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamIn.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamOut.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamOut.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamOut.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamTextIn.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamTextIn.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamTextIn.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/ObjectStreamTextOut.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamTextOut.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/ObjectStreamTextOut.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/jolt-build",
+  "command": "/usr/bin/c++ -DJPH_DEBUG_RENDERER -DJPH_OBJECT_STREAM -DJPH_PROFILE_ENABLED -DJPH_USE_AVX -DJPH_USE_AVX2 -DJPH_USE_F16C -DJPH_USE_FMADD -DJPH_USE_LZCNT -DJPH_USE_SSE4_1 -DJPH_USE_SSE4_2 -DJPH_USE_TZCNT -D_DEBUG -I/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build/..  -Wall -Werror -g -fno-rtti -fno-exceptions -Wno-stringop-overflow -ffp-contract=off -mavx2 -mbmi -mpopcnt -mlzcnt -mf16c -mfma -mfpmath=sse -pthread -std=c++17 -Winvalid-pch -include /home/ion/GitHome/LSDJam24/_deps/jolt-build/CMakeFiles/Jolt.dir/cmake_pch.hxx -o CMakeFiles/Jolt.dir/__/Jolt/ObjectStream/TypeDeclarations.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/TypeDeclarations.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/jolt-src/Jolt/ObjectStream/TypeDeclarations.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/spdlog.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/spdlog.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/color_sinks.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/color_sinks.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/file_sinks.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/file_sinks.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/async.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/async.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/cfg.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/cfg.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/ion/GitHome/LSDJam24/_deps/spdlog-src/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/spdlog-src/src/bundled_fmtlib_format.cpp"
+},
+{
+  "directory": "/home/ion/GitHome/LSDJam24/_deps/glm-build/glm",
+  "command": "/usr/bin/c++  -I/home/ion/GitHome/LSDJam24/_deps/glm-src -g -std=c++11 -o CMakeFiles/glm.dir/detail/glm.cpp.o -c /home/ion/GitHome/LSDJam24/_deps/glm-src/glm/detail/glm.cpp",
+  "file": "/home/ion/GitHome/LSDJam24/_deps/glm-src/glm/detail/glm.cpp"
 }
 ]

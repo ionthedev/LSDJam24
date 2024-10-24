@@ -247,6 +247,69 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+#=============================================================================
+# Target rules for targets named Jolt
+
+# Build rule for target.
+Jolt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Jolt
+.PHONY : Jolt
+
+# fast build rule for target.
+Jolt/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/jolt-build/CMakeFiles/Jolt.dir/build.make _deps/jolt-build/CMakeFiles/Jolt.dir/build
+.PHONY : Jolt/fast
+
+#=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/spdlog-build/CMakeFiles/spdlog.dir/build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
+# Target rules for targets named glm
+
+# Build rule for target.
+glm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm
+.PHONY : glm
+
+# fast build rule for target.
+glm/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/glm-build/glm/CMakeFiles/glm.dir/build.make _deps/glm-build/glm/CMakeFiles/glm.dir/build
+.PHONY : glm/fast
+
+sources/Core/Log.o: sources/Core/Log.cpp.o
+.PHONY : sources/Core/Log.o
+
+# target to build an object file
+sources/Core/Log.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o
+.PHONY : sources/Core/Log.cpp.o
+
+sources/Core/Log.i: sources/Core/Log.cpp.i
+.PHONY : sources/Core/Log.i
+
+# target to preprocess a source file
+sources/Core/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.i
+.PHONY : sources/Core/Log.cpp.i
+
+sources/Core/Log.s: sources/Core/Log.cpp.s
+.PHONY : sources/Core/Log.s
+
+# target to generate assembly for a file
+sources/Core/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.s
+.PHONY : sources/Core/Log.cpp.s
+
 sources/Player.o: sources/Player.cpp.o
 .PHONY : sources/Player.o
 
@@ -270,6 +333,54 @@ sources/Player.s: sources/Player.cpp.s
 sources/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Player.cpp.s
 .PHONY : sources/Player.cpp.s
+
+sources/Systems/InputSystem.o: sources/Systems/InputSystem.cpp.o
+.PHONY : sources/Systems/InputSystem.o
+
+# target to build an object file
+sources/Systems/InputSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o
+.PHONY : sources/Systems/InputSystem.cpp.o
+
+sources/Systems/InputSystem.i: sources/Systems/InputSystem.cpp.i
+.PHONY : sources/Systems/InputSystem.i
+
+# target to preprocess a source file
+sources/Systems/InputSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.i
+.PHONY : sources/Systems/InputSystem.cpp.i
+
+sources/Systems/InputSystem.s: sources/Systems/InputSystem.cpp.s
+.PHONY : sources/Systems/InputSystem.s
+
+# target to generate assembly for a file
+sources/Systems/InputSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.s
+.PHONY : sources/Systems/InputSystem.cpp.s
+
+sources/Systems/RenderingSystem.o: sources/Systems/RenderingSystem.cpp.o
+.PHONY : sources/Systems/RenderingSystem.o
+
+# target to build an object file
+sources/Systems/RenderingSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o
+.PHONY : sources/Systems/RenderingSystem.cpp.o
+
+sources/Systems/RenderingSystem.i: sources/Systems/RenderingSystem.cpp.i
+.PHONY : sources/Systems/RenderingSystem.i
+
+# target to preprocess a source file
+sources/Systems/RenderingSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.i
+.PHONY : sources/Systems/RenderingSystem.cpp.i
+
+sources/Systems/RenderingSystem.s: sources/Systems/RenderingSystem.cpp.s
+.PHONY : sources/Systems/RenderingSystem.s
+
+# target to generate assembly for a file
+sources/Systems/RenderingSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSDJAM.dir/build.make CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.s
+.PHONY : sources/Systems/RenderingSystem.cpp.s
 
 sources/main.o: sources/main.cpp.o
 .PHONY : sources/main.o
@@ -311,12 +422,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... Jolt"
 	@echo "... LSDJAM"
 	@echo "... glfw"
+	@echo "... glm"
 	@echo "... raylib"
+	@echo "... spdlog"
+	@echo "... sources/Core/Log.o"
+	@echo "... sources/Core/Log.i"
+	@echo "... sources/Core/Log.s"
 	@echo "... sources/Player.o"
 	@echo "... sources/Player.i"
 	@echo "... sources/Player.s"
+	@echo "... sources/Systems/InputSystem.o"
+	@echo "... sources/Systems/InputSystem.i"
+	@echo "... sources/Systems/InputSystem.s"
+	@echo "... sources/Systems/RenderingSystem.o"
+	@echo "... sources/Systems/RenderingSystem.i"
+	@echo "... sources/Systems/RenderingSystem.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"

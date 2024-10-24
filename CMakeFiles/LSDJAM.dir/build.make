@@ -69,10 +69,24 @@ include CMakeFiles/LSDJAM.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LSDJAM.dir/flags.make
 
+CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o: CMakeFiles/LSDJAM.dir/flags.make
+CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o: sources/Core/Log.cpp
+CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o: CMakeFiles/LSDJAM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o -MF CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o.d -o CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Core/Log.cpp
+
+CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ion/GitHome/LSDJam24/sources/Core/Log.cpp > CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.i
+
+CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ion/GitHome/LSDJam24/sources/Core/Log.cpp -o CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.s
+
 CMakeFiles/LSDJAM.dir/sources/Player.cpp.o: CMakeFiles/LSDJAM.dir/flags.make
 CMakeFiles/LSDJAM.dir/sources/Player.cpp.o: sources/Player.cpp
 CMakeFiles/LSDJAM.dir/sources/Player.cpp.o: CMakeFiles/LSDJAM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LSDJAM.dir/sources/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LSDJAM.dir/sources/Player.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LSDJAM.dir/sources/Player.cpp.o -MF CMakeFiles/LSDJAM.dir/sources/Player.cpp.o.d -o CMakeFiles/LSDJAM.dir/sources/Player.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Player.cpp
 
 CMakeFiles/LSDJAM.dir/sources/Player.cpp.i: cmake_force
@@ -83,10 +97,38 @@ CMakeFiles/LSDJAM.dir/sources/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LSDJAM.dir/sources/Player.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ion/GitHome/LSDJam24/sources/Player.cpp -o CMakeFiles/LSDJAM.dir/sources/Player.cpp.s
 
+CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o: CMakeFiles/LSDJAM.dir/flags.make
+CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o: sources/Systems/InputSystem.cpp
+CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o: CMakeFiles/LSDJAM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o -MF CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o.d -o CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp
+
+CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp > CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.i
+
+CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp -o CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.s
+
+CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o: CMakeFiles/LSDJAM.dir/flags.make
+CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o: sources/Systems/RenderingSystem.cpp
+CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o: CMakeFiles/LSDJAM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o -MF CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o.d -o CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o -c /home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp
+
+CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp > CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.i
+
+CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp -o CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.s
+
 CMakeFiles/LSDJAM.dir/sources/main.cpp.o: CMakeFiles/LSDJAM.dir/flags.make
 CMakeFiles/LSDJAM.dir/sources/main.cpp.o: sources/main.cpp
 CMakeFiles/LSDJAM.dir/sources/main.cpp.o: CMakeFiles/LSDJAM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LSDJAM.dir/sources/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LSDJAM.dir/sources/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LSDJAM.dir/sources/main.cpp.o -MF CMakeFiles/LSDJAM.dir/sources/main.cpp.o.d -o CMakeFiles/LSDJAM.dir/sources/main.cpp.o -c /home/ion/GitHome/LSDJam24/sources/main.cpp
 
 CMakeFiles/LSDJAM.dir/sources/main.cpp.i: cmake_force
@@ -99,23 +141,32 @@ CMakeFiles/LSDJAM.dir/sources/main.cpp.s: cmake_force
 
 # Object files for target LSDJAM
 LSDJAM_OBJECTS = \
+"CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o" \
 "CMakeFiles/LSDJAM.dir/sources/Player.cpp.o" \
+"CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o" \
+"CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o" \
 "CMakeFiles/LSDJAM.dir/sources/main.cpp.o"
 
 # External object files for target LSDJAM
 LSDJAM_EXTERNAL_OBJECTS =
 
+LSDJAM: CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o
 LSDJAM: CMakeFiles/LSDJAM.dir/sources/Player.cpp.o
+LSDJAM: CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o
+LSDJAM: CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o
 LSDJAM: CMakeFiles/LSDJAM.dir/sources/main.cpp.o
 LSDJAM: CMakeFiles/LSDJAM.dir/build.make
 LSDJAM: _deps/raylib-build/raylib/libraylib.a
+LSDJAM: _deps/spdlog-build/libspdlogd.a
+LSDJAM: _deps/jolt-build/libJolt.a
+LSDJAM: _deps/glm-build/glm/libglm.a
 LSDJAM: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 LSDJAM: /usr/lib/x86_64-linux-gnu/libGLX.so
 LSDJAM: /usr/lib/x86_64-linux-gnu/libGLU.so
 LSDJAM: /usr/lib/x86_64-linux-gnu/librt.a
 LSDJAM: /usr/lib/x86_64-linux-gnu/libm.so
 LSDJAM: CMakeFiles/LSDJAM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LSDJAM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ion/GitHome/LSDJam24/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LSDJAM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LSDJAM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

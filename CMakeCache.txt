@@ -19,7 +19,7 @@ BUILD_EXAMPLES:BOOL=OFF
 
 BUILD_GAMES:BOOL=OFF
 
-//Build shared libraries
+//Compile Jolt as a shared library
 BUILD_SHARED_LIBS:BOOL=OFF
 
 //Path to a program.
@@ -298,15 +298,48 @@ CPACK_SOURCE_TZ:BOOL=ON
 //Enable to build ZIP source packages
 CPACK_SOURCE_ZIP:BOOL=OFF
 
+//Enable C++ exceptions
+CPP_EXCEPTIONS_ENABLED:BOOL=OFF
+
+//Enable C++ RTTI
+CPP_RTTI_ENABLED:BOOL=OFF
+
+//Cross compile to aarch64-linux-gnu
+CROSS_COMPILE_ARM:BOOL=OFF
+
+//Cross platform deterministic
+CROSS_PLATFORM_DETERMINISTIC:BOOL=OFF
+
 //Show options for customizing your Raylib library build.
 CUSTOMIZE_BUILD:BOOL=OFF
+
+//Enable debug renderer in Debug and Release builds
+DEBUG_RENDERER_IN_DEBUG_AND_RELEASE:BOOL=ON
+
+//Enable debug renderer in all builds
+DEBUG_RENDERER_IN_DISTRIBUTION:BOOL=OFF
+
+//Disable support for a custom memory allocator
+DISABLE_CUSTOM_ALLOCATOR:BOOL=OFF
+
+//Use double precision math
+DOUBLE_PRECISION:BOOL=OFF
+
+//Enable all warnings and warnings as errors
+ENABLE_ALL_WARNINGS:BOOL=ON
 
 //Enable AddressSanitizer (ASAN) for debugging (degrades performance)
 ENABLE_ASAN:BOOL=OFF
 
+//Generate installation target
+ENABLE_INSTALL:BOOL=ON
+
 //Enable MemorySanitizer (MSan) for debugging (not recommended
 // to run with ASAN)
 ENABLE_MSAN:BOOL=OFF
+
+//Compile the ObjectStream class and RTTI attribute information
+ENABLE_OBJECT_STREAM:BOOL=ON
 
 //Enable UndefinedBehaviorSanitizer (UBSan) for debugging
 ENABLE_UBSAN:BOOL=OFF
@@ -322,14 +355,41 @@ FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
 FETCHCONTENT_QUIET:BOOL=ON
 
 //When not empty, overrides where to find pre-populated content
+// for glm
+FETCHCONTENT_SOURCE_DIR_GLM:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for Jolt
+FETCHCONTENT_SOURCE_DIR_JOLT:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for raylib
 FETCHCONTENT_SOURCE_DIR_RAYLIB:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for spdlog
+FETCHCONTENT_SOURCE_DIR_SPDLOG:PATH=
 
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of glm
+FETCHCONTENT_UPDATES_DISCONNECTED_GLM:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of Jolt
+FETCHCONTENT_UPDATES_DISCONNECTED_JOLT:BOOL=OFF
+
 //Enables UPDATE_DISCONNECTED behavior just for population of raylib
 FETCHCONTENT_UPDATES_DISCONNECTED_RAYLIB:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of spdlog
+FETCHCONTENT_UPDATES_DISCONNECTED_SPDLOG:BOOL=OFF
+
+//Enable floating point exceptions
+FLOATING_POINT_EXCEPTIONS_ENABLED:BOOL=ON
+
+//Generate debug symbols
+GENERATE_DEBUG_SYMBOLS:BOOL=ON
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
@@ -363,8 +423,80 @@ GLFW_LIBRARY_TYPE:STRING=OBJECT
 //Value Computed by CMake
 GLFW_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/raylib-src/src/external/glfw
 
+//Generate the install target
+GLM_BUILD_INSTALL:BOOL=OFF
+
+//Build dynamic/static library
+GLM_BUILD_LIBRARY:BOOL=ON
+
+//Build the test programs
+GLM_BUILD_TESTS:BOOL=OFF
+
+//Disable platform, compiler, arch and C++ language detection
+GLM_DISABLE_AUTO_DETECTION:BOOL=OFF
+
+//Enable C++ 11
+GLM_ENABLE_CXX_11:BOOL=OFF
+
+//Enable C++ 14
+GLM_ENABLE_CXX_14:BOOL=OFF
+
+//Enable C++ 17
+GLM_ENABLE_CXX_17:BOOL=OFF
+
+//Enable C++ 20
+GLM_ENABLE_CXX_20:BOOL=OFF
+
+//Enable C++ 98
+GLM_ENABLE_CXX_98:BOOL=OFF
+
+//Enable fast math optimizations
+GLM_ENABLE_FAST_MATH:BOOL=OFF
+
+//Enable language extensions
+GLM_ENABLE_LANG_EXTENSIONS:BOOL=OFF
+
+//Enable AVX optimizations
+GLM_ENABLE_SIMD_AVX:BOOL=OFF
+
+//Enable AVX2 optimizations
+GLM_ENABLE_SIMD_AVX2:BOOL=OFF
+
+//Enable SSE2 optimizations
+GLM_ENABLE_SIMD_SSE2:BOOL=OFF
+
+//Enable SSE3 optimizations
+GLM_ENABLE_SIMD_SSE3:BOOL=OFF
+
+//Enable SSE 4.1 optimizations
+GLM_ENABLE_SIMD_SSE4_1:BOOL=OFF
+
+//Enable SSE 4.2 optimizations
+GLM_ENABLE_SIMD_SSE4_2:BOOL=OFF
+
+//Enable SSSE3 optimizations
+GLM_ENABLE_SIMD_SSSE3:BOOL=OFF
+
+//Force 'pure' instructions
+GLM_FORCE_PURE:BOOL=OFF
+
+//Enable ARM NEON optimizations
+GLM_TEST_ENABLE_SIMD_NEON:BOOL=OFF
+
 //Include everything disabled by default (for CI usage
 INCLUDE_EVERYTHING:BOOL=OFF
+
+//Enable interprocedural optimizations
+INTERPROCEDURAL_OPTIMIZATION:BOOL=ON
+
+//Value Computed by CMake
+JoltPhysics_BINARY_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/jolt-build
+
+//Value Computed by CMake
+JoltPhysics_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+JoltPhysics_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/jolt-src/Build
 
 //Value Computed by CMake
 LSDJAM_BINARY_DIR:STATIC=/home/ion/GitHome/LSDJam24
@@ -377,6 +509,9 @@ LSDJAM_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24
 
 //Path to a library.
 MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
+
+//Number of bits in ObjectLayer
+OBJECT_LAYER_BITS:BOOL=OFF
 
 //Path to a file.
 OPENGL_EGL_INCLUDE_DIR:PATH=/usr/include
@@ -405,6 +540,9 @@ OPENGL_opengl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libOpenGL.so
 //Path to a file.
 OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 
+//Override CMAKE_CXX_FLAGS_DEBUG/RELEASE
+OVERRIDE_CXX_FLAGS:BOOL=ON
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -414,11 +552,144 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //Platform to build for.
 PLATFORM:STRING=Desktop
 
+//Enable the profiler in Debug and Release builds
+PROFILER_IN_DEBUG_AND_RELEASE:BOOL=ON
+
+//Enable the profiler in all builds
+PROFILER_IN_DISTRIBUTION:BOOL=OFF
+
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.a
 
+//Build all artifacts
+SPDLOG_BUILD_ALL:BOOL=OFF
+
+//Build benchmarks (Requires https://github.com/google/benchmark.git
+// to be installed)
+SPDLOG_BUILD_BENCH:BOOL=OFF
+
+//Build example
+SPDLOG_BUILD_EXAMPLE:BOOL=OFF
+
+//Build header only example
+SPDLOG_BUILD_EXAMPLE_HO:BOOL=OFF
+
+//Build position independent code (-fPIC)
+SPDLOG_BUILD_PIC:BOOL=OFF
+
+//Build shared library
+SPDLOG_BUILD_SHARED:BOOL=OFF
+
+//Build tests
+SPDLOG_BUILD_TESTS:BOOL=OFF
+
+//Build tests using the header only version
+SPDLOG_BUILD_TESTS_HO:BOOL=OFF
+
+//Enable compiler warnings
+SPDLOG_BUILD_WARNINGS:BOOL=OFF
+
+//Use CLOCK_REALTIME_COARSE instead of the regular clock,
+SPDLOG_CLOCK_COARSE:BOOL=OFF
+
+//Disable default logger creation
+SPDLOG_DISABLE_DEFAULT_LOGGER:BOOL=OFF
+
+//Build static or shared library using precompiled header to speed
+// up compilation time
+SPDLOG_ENABLE_PCH:BOOL=OFF
+
+//Use external fmt library instead of bundled
+SPDLOG_FMT_EXTERNAL:BOOL=OFF
+
+//Use external fmt header-only library instead of bundled
+SPDLOG_FMT_EXTERNAL_HO:BOOL=OFF
+
+//Generate the install target
+SPDLOG_INSTALL:BOOL=OFF
+
+//prevent spdlog from using of std::atomic log levels (use only
+// if your code never modifies log levels concurrently
+SPDLOG_NO_ATOMIC_LEVELS:BOOL=OFF
+
+//Compile with -fno-exceptions. Call abort() on any spdlog exceptions
+SPDLOG_NO_EXCEPTIONS:BOOL=OFF
+
+//prevent spdlog from querying the thread id on each log call if
+// thread id is not needed
+SPDLOG_NO_THREAD_ID:BOOL=OFF
+
+//prevent spdlog from using thread local storage
+SPDLOG_NO_TLS:BOOL=OFF
+
+//Prevent from child processes to inherit log file descriptors
+SPDLOG_PREVENT_CHILD_FD:BOOL=OFF
+
+//Enable address sanitizer in tests
+SPDLOG_SANITIZE_ADDRESS:BOOL=OFF
+
+//Include as system headers (skip for clang-tidy).
+SPDLOG_SYSTEM_INCLUDES:BOOL=OFF
+
+//run clang-tidy
+SPDLOG_TIDY:BOOL=OFF
+
+//Use std::format instead of fmt library.
+SPDLOG_USE_STD_FORMAT:BOOL=OFF
+
+//non supported option
+SPDLOG_WCHAR_CONSOLE:BOOL=OFF
+
+//non supported option
+SPDLOG_WCHAR_FILENAMES:BOOL=OFF
+
+//non supported option
+SPDLOG_WCHAR_SUPPORT:BOOL=OFF
+
+//Track Broadphase Stats
+TRACK_BROADPHASE_STATS:BOOL=OFF
+
+//Track Narrowphase Stats
+TRACK_NARROWPHASE_STATS:BOOL=OFF
+
+//Enable asserts
+USE_ASSERTS:BOOL=OFF
+
+//Enable AVX
+USE_AVX:BOOL=ON
+
+//Enable AVX2
+USE_AVX2:BOOL=ON
+
+//Enable AVX512
+USE_AVX512:BOOL=OFF
+
 //Link raylib against system GLFW instead of embedded one
 USE_EXTERNAL_GLFW:STRING=OFF
+
+//Enable F16C
+USE_F16C:BOOL=ON
+
+//Enable FMADD
+USE_FMADD:BOOL=ON
+
+//Enable LZCNT
+USE_LZCNT:BOOL=ON
+
+//Enable SSE4.1
+USE_SSE4_1:BOOL=ON
+
+//Enable SSE4.2
+USE_SSE4_2:BOOL=ON
+
+//Use std::vector instead of own Array class
+USE_STD_VECTOR:BOOL=OFF
+
+//Enable TZCNT
+USE_TZCNT:BOOL=ON
+
+//Enable SIMD for WASM
+USE_WASM_SIMD:BOOL=OFF
 
 //Path to a program.
 WAYLAND_SCANNER_EXECUTABLE:FILEPATH=/usr/bin/wayland-scanner
@@ -657,6 +928,15 @@ X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 //Path to a library.
 X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 
+//Value Computed by CMake
+glm_BINARY_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/glm-build
+
+//Value Computed by CMake
+glm_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glm_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/glm-src
+
 //Path to a library.
 pkgcfg_lib_Wayland_wayland-client:FILEPATH=/usr/lib/x86_64-linux-gnu/libwayland-client.so
 
@@ -683,6 +963,15 @@ raylib_LIB_DEPENDS:STATIC=general;m;pthread;/usr/lib/x86_64-linux-gnu/libOpenGL.
 
 //Value Computed by CMake
 raylib_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/raylib-src/src
+
+//Value Computed by CMake
+spdlog_BINARY_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/spdlog-build
+
+//Value Computed by CMake
+spdlog_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+spdlog_SOURCE_DIR:STATIC=/home/ion/GitHome/LSDJam24/_deps/spdlog-src
 
 
 ########################
@@ -833,7 +1122,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
