@@ -8,10 +8,10 @@ cmake --build .
 
 # Check if build was successful
 if [ $? -eq 0 ]; then
-    # Run the executable with gdb
-    gdb -ex run ./LSDJAM
+    # -q suppresses the intro message
+    # --ex "set confirm off" disables confirmations
+    # -ex run starts the program
+    gdb -q -ex "set confirm off" -ex run ./build/LSDJAM
 else
     echo "Build failed. Please check the error messages above."
 fi
-
-# Return to the original directory

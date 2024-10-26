@@ -11,19 +11,10 @@
 *
 ********************************************************************************************/
 
-#include "raylib.h"
-#include "raymath.h"
-#include "rcamera.h"
-#include "Core/Log.h"
-
-#include "Systems/RenderingSystem.h"
-#include "Systems/InputSystem.h"
-#include "Components/InputComponent.h"
-#include "Components/TransformComponent.h"
-#include <cstdint>
 
 #define _ECS_IMPLEMENTATION
-#include "ecs.h"
+
+#include "PH_PCH.h"
 
 #define MAX_COLUMNS 20
 

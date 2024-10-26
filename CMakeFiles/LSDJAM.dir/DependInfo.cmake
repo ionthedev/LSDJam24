@@ -8,11 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx.cxx" "CMakeFiles/LSDJAM.dir/cmake_pch.hxx.gch" "gcc" "CMakeFiles/LSDJAM.dir/cmake_pch.hxx.gch.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/cmake_pch.hxx.gch" "gcc" "CMakeFiles/LSDJAM.dir/cmake_pch.hxx.gch.d"
+  "/home/ion/GitHome/LSDJam24/sources/Core/GameObject.cpp" "CMakeFiles/LSDJAM.dir/sources/Core/GameObject.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Core/GameObject.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/sources/Core/GameObject.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Core/GameObject.cpp.o.d"
   "/home/ion/GitHome/LSDJam24/sources/Core/Log.cpp" "CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Core/Log.cpp.o.d"
   "/home/ion/GitHome/LSDJam24/sources/Player.cpp" "CMakeFiles/LSDJAM.dir/sources/Player.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Player.cpp.o.d"
-  "/home/ion/GitHome/LSDJam24/sources/Systems/InputSystem.cpp" "CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Systems/InputSystem.cpp.o.d"
-  "/home/ion/GitHome/LSDJam24/sources/Systems/RenderingSystem.cpp" "CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Systems/RenderingSystem.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/sources/Player.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Player.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/sources/Systems/Systems.cpp" "CMakeFiles/LSDJAM.dir/sources/Systems/Systems.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Systems/Systems.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/sources/Systems/Systems.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/Systems/Systems.cpp.o.d"
   "/home/ion/GitHome/LSDJam24/sources/main.cpp" "CMakeFiles/LSDJAM.dir/sources/main.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/main.cpp.o.d"
+  "/home/ion/GitHome/LSDJam24/CMakeFiles/LSDJAM.dir/cmake_pch.hxx" "CMakeFiles/LSDJAM.dir/sources/main.cpp.o" "gcc" "CMakeFiles/LSDJAM.dir/sources/main.cpp.o.d"
   )
 
 # Targets to which this target links.
